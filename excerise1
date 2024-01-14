@@ -1,0 +1,7 @@
+num = 1
+while True:
+    cube = num ** 3
+    if cube > 1000:
+        break
+    print(cube)
+    num += 1
